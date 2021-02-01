@@ -1,0 +1,143 @@
+/* header
+{
+    background: green;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+h1  
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* h2{
+    font: bold 14px sans-serif;
+} */
+
+hgroup
+{
+    border: 1px solid red;
+    
+}
+
+img
+{
+    max-width: 20%;
+    display: block;
+    margin: auto;
+}
+
+section,footer {
+    display: block;
+}
+
+
+.caja /* usando display */
+{
+    
+     
+    background: yellow;
+    border: 1px solid black;
+    box-sizing: border-box ;
+    padding: 1em;
+    /* display: inline-block ; */
+    width: 44% ;
+     /* margin: 4.0% ;    */
+    margin: 2.5%;
+    vertical-align: top;
+   float: left;
+   text-align: center;
+
+    
+    
+}
+
+ .caja2 /* usando float */
+{
+    border: 1px solid black;
+    padding: 1em;
+    width: 44%;
+    box-sizing: border-box;
+     margin: 2.0%; 
+    float: left;
+    
+}
+
+
+div
+{
+    border: 1px solid black;
+    /* margin: 15% auto; */
+    margin: auto;
+    width: 960px;
+    
+}
+
+.header
+{
+   text-align: center; 
+   background:  #7FFF00;
+   border: 1px solid black ;
+}
+
+.menu
+{
+    background: cadetblue;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.menu li
+{
+
+    padding: 1%;
+    border: 1px solid black;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+article
+{
+    background: palevioletred;
+    border: 1px solid black;
+    margin-bottom: 20px ;
+}
+
+article footer
+{
+    text-align: right;
+    margin-top: 20px;
+}
+
+article p
+{
+    text-align: justify;
+}
+
+
+.columna
+{
+      float: left; 
+     border: 1px solid black;
+      width: 300px; 
+     background: skyblue; 
+     margin: 20px 0;
+     /* vertical-align: auto; */
+}
+
+.columna blockquote
+{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 5% 20%;
+}
+.pie
+{
+   clear: both;
+   padding: 20 px;
+   background: crimson;
+   text-align: center;
+}
